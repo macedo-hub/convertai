@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConvertAí</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <h1 id="titulo" style="color: rgb(255, 255, 255);">Convert<span style="color: #ff8929;">AÍ</span></h1>
+
+        <div class="area-conversao">
+            <div class="bloco">
+                <select id="escala-origem" class="seletor">
+                    <option value="celsius">Celsius</option>
+                    <option value="fahrenheit">Fahrenheit</option>
+                    <option value="kelvin">Kelvin</option>
+                </select>
+                <input type="number" id="valor-origem" class="campo-texto" placeholder="Digite a temperatura">
+            </div>
+
+            <span class="icone-seta">⇄</span>
+
+            <div class="bloco">
+                <select id="escala-destino" class="seletor">
+                    <option value="celsius" class="celsius">Celsius</option>
+                    <option value="fahrenheit" class="fahrenheit">Fahrenheit</option>
+                    <option value="kelvin" class="kelvin">Kelvin</option>
+                </select>
+                <div id="valor-destino" class="campo-texto campo-resultado">Conversão</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

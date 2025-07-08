@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to top, #ff8929, #a8430085);
+    color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.container {
+    text-align: center;
+    width: 90%;
+    max-width: 800px;
+}
+
+#titulo {
+    font-family: 'MoreSugar-Regular', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #fff;
+    font-size: 100px;
+    text-shadow: #5728029d 10px 10px 10px;
+}
+
+@font-face {
+    font-family: 'MoreSugar-Regular';
+    src: url('fonts/MoreSugar-Regular.otf') format('opentype');
+}
+
+.area-conversao {
+    display: flex;
+    background-color: #e0e0e0;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 0 20px #5728029d;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.bloco {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.seletor {
+    background-color: #ffffff;
+    color: #2c2c2c;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    padding: 0.6rem;
+    font-size: 1rem;
+}
+
+.campo-texto {
+    padding: 1rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 6px;
+    background-color: #ffffff;
+    color: #2c2c2c;
+    text-align: center;
+}
+
+.campo-resultado {
+    border: 1px solid #555;
+    min-height: 3.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icone-seta {
+    font-size: 2rem;
+    color: #888;
+}
+
+.celsius {
+    background-color: #d0e7ff !important; /* azul claro */
+    color: #0077ff;
+}
+
+.fahrenheit {
+    background-color: #d1f5d3 !important; /* verde claro */
+    color: #1dad00;
+}
+
+.kelvin {
+    background-color: #ffd2cf !important; /* vermelho claro */
+    color: #ff0000;
+}
